@@ -1,0 +1,19 @@
+{
+  "name": "knip_issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knip": "knip",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "knip": "^5.26.0",
+    "typescript": "^5.5.3"
+  }
+}
